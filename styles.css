@@ -1,0 +1,143 @@
+/**
+/* CSS HEX
+--space-cadet: #2D2E53ff;
+--rose-ebony: #704A43ff;
+--old-lavender: #785D6Cff;
+--united-nations-blue: #5D90E5ff;
+--old-burgundy: #3D2327ff;
+
+*/
+
+body {
+    position: relative;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 720px;
+    height: 1115px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 1px 6px lightgray;
+    border-radius: 5%;
+}
+
+img {
+    width: 100px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(/images/duomo.jpg);
+    background-size: 100%;
+    background-position: center;
+    width: 720px;
+    height: 343px;
+    left: 0px;
+    top: 0px;
+    margin: 0 auto 0 auto;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+}
+
+.title {
+    width: 201px;
+    height: 34px;
+    left: 259px;
+    top: 122px;
+    padding: 20px;
+    margin-top: auto;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    width: 225px;
+    text-shadow: 0 0 1px #2D2E53ff;
+    
+    height: 50px;
+
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    
+    color: whitesmoke;
+}
+
+.header {
+    color: whitesmoke;
+    background: #2D2E53ff;
+    width: 412px;
+    height: 52px;
+    border-radius: 10px;
+    margin: 0 0 auto;
+    padding: 5px 30px;
+
+}
+
+.main {
+    color: #2D2E53ff;
+    background-color: #E3C9B6ff;
+    width: 720px;
+    height: 378px;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.body-title {
+    margin: 0;
+    padding: 30px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.avatar {
+    width: 180px;
+    height: 200px;
+    border-radius: 10%;
+    margin: 20px;
+    border-radius: 5%;
+    padding: 0;
+    box-shadow: 3px 3px 3px #2D2E53ff
+}
+
+.card {
+    display: flex;
+    width: 400px;
+    height: 250px;
+    margin: 40px auto;
+    border-radius: 5%;
+    background-color: #76A3F1ff;
+    color: #2D2E53ff;
+    box-shadow: 6px 6px 3px #2D2E53ff;
+}
+
+.bio {
+    padding-right: 20px;
+}
+
+.your-guide {
+    padding-top: 20px;
+    font-size: 25px
+}
+
+.italic {
+    font-style: italic;
+}
